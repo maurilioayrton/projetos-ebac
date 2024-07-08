@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/estilo/style.css" media="screen" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Inicio</title>
+</head>
+
+<body>
+    <header class="container">
+        <section class="menu" >
+            <ul>
+                <li><a href="#Kub">Kubernetes</a></li>
+                <li><a href="#Docker">Docker</a></li>
+                <li><a href="#Django">Django</a></li>
+                <li><a href="#Gitlab">GitLab</a></li>
+                <li><a href="#sentry">Sentry</a></li>
+                <li><a href="#sobre">Sobre a página</a></li>
+                <li><a href="#Newsletter">Newsletter</a></li>
+            </ul>
+        </section>
+    </header>
+    <div class="interfaces">
+    <section>
+        <div class="sobre">
+            <img src="estilo/imagens/banner.jpg" alt="" id="sobre">
+        </div>
+    </section>
+    
+    <section class="kub">
+        <img src="estilo/imagens/kube.png" alt="">
+        <div class="kub" id="Kub">
+         <Article>
+            <p>Kubernetes é uma plataforma de código aberto para automatizar a implantação, escalonamento e gerenciamento de aplicativos em contêineres. Ele facilita a orquestração de contêineres em clusters de servidores, proporcionando alta disponibilidade e balanceamento de carga. Com Kubernetes, é possível gerenciar implantações, atualizações e a saúde dos aplicativos de forma eficiente. Ele também oferece recursos como descoberta de serviços, gerenciamento de armazenamento e escalonamento automático. Sua arquitetura modular e extensível permite integração com diversas ferramentas e serviços.
+            </p>
+            <p>
+                <a href="https://kubernetes.io/pt-br/docs/home/" target="_blank">Saiba Mais...</a>
+            </p>
+        </div>
+    </Article>   
+    </section>
+    <section>
+        <div class="Django" id="Django">
+        <Article>
+                <p>Django é um framework de desenvolvimento web de alto nível em Python, projetado para criar aplicativos web rápidos e seguros. Ele segue o padrão de arquitetura MVC Model-View-Controller) e oferece uma vasta gama de funcionalidades integradas, como um sistema de autenticação, administração automática e ORM (Object-Relational Mapping). Com uma abordagem "batteries-included", Django facilita o desenvolvimento rápido de aplicações complexas. Além disso, promove boas práticas de segurança e escalabilidade. É amplamente utilizado em projetos de todos os tamanhos, desde startups até grandes empresas.
+                </p>
+                <p>
+                    <a href="https://docs.djangoproject.com/" target="_blank">Saiba Mais...</a>
+                </p>
+        </Article>
+        <img src="estilo/imagens/django.png" alt="">
+        </div>
+    </section>
+    <section>
+        <div class="Docker" id="Docker">
+            <img src="estilo/imagens/docker.png" alt="">
+            <Article>
+            <p>
+                Docker é uma plataforma de código aberto que permite criar, enviar e executar aplicativos em contêineres. Ele oferece um ambiente isolado e consistente, garantindo que o software funcione de maneira uniforme em diferentes sistemas. Com Docker, é possível empacotar todas as dependências de um aplicativo em um único contêiner, simplificando o desenvolvimento e a implantação. A plataforma facilita a portabilidade e escalabilidade dos aplicativos. Docker também suporta integração com várias ferramentas de orquestração, como Kubernetes.
+            </p>
+            <p>
+                <a href="https://docs.docker.com/" target="_blank">Saiba Mais...</a>
+            </p>
+        </Article>s
+        </div>
+    </section>
+    <section>
+        <div class="Gitlab" id="Gitlab">
+            <Article>
+            <p>
+                GitLab é uma plataforma DevOps de código aberto que oferece um repositório Git, CI/CD, e gerenciamento de projetos em uma única aplicação. Ele facilita a colaboração entre equipes de desenvolvimento, permitindo controle de versão, revisão de código e integração contínua de forma eficiente. GitLab inclui ferramentas para planejamento, rastreamento de problemas e deploy automatizado, promovendo um fluxo de trabalho DevOps completo. Seu ambiente de integração contínua é robusto e flexível, suportando pipelines personalizáveis. A plataforma é utilizada por empresas de todos os tamanhos para melhorar a produtividade e a qualidade do software.
+            </p>
+            <p>
+                <a href="https://docs.gitlab.com/" target="_blank">Saiba Mais...</a>
+            </p>
+              </Article>
+              <img src="estilo/imagens/gitlab.png" alt="">
+        </div>
+    </section>
+    <section>
+        <div class="sentry" id="sentry">
+            <Article>
+                <p>
+                    Sentry é uma ferramenta de monitoramento de erros e desempenho de código aberto, projetada para identificar e corrigir falhas em aplicativos. Ele captura exceções em tempo real, fornecendo informações detalhadas sobre erros, incluindo stack traces e contexto, para facilitar a depuração. Sentry se integra com várias linguagens e frameworks, tornando-o versátil para diferentes ambientes de desenvolvimento. Além de erros, ele também monitora o desempenho de aplicações, ajudando a detectar e resolver problemas de latência e desempenho. Utilizado por desenvolvedores, Sentry melhora a estabilidade e a qualidade dossistemas de software. 
+                    
+                </p>
+                <p>
+                    <a href="https://docs.sentry.io/" target="_blank">Saiba Mais...</a>
+                </p>
+            </Article>
+            <img src="estilo/imagens/sentry.png" alt="">
+            
+        </div>
+    </section>
+    <section class="Newsletter" id="Newsletter">
+
+        <form class="newsletter-form">
+            <h2>Newsletter</h2>
+            <label for="email">Nome:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="email">Telefone:</label>
+            <input type="email" id="email" name="email" required>
+            <input type="submit" value="Inscrever-se">
+        </form>
+    </section>
+    </div>
+    <section class="seta">
+        <a href="#menu">
+        <img src="estilo/imagens/subir.png" alt="subir" ></a>
+        
+    </section>
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados</p>
+        <p>Entre em contato pelo e-mail: maurilioayrton@hotmail.com</p>
+    </footer>
+</body>
+
+</html>

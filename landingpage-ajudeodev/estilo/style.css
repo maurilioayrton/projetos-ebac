@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    /* Remove a margem padrão de todos os elementos */
+    box-sizing: border-box;
+    /* Define o modelo de caixa para incluir padding e borda na largura e altura */
+    padding: 0;
+    /* Remove o padding padrão de todos os elementos */
+}
+
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+
+.sobre {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+
+#sobre {
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    height: 1100px;
+}
+
+header {
+    display: flex;
+    /* Define o container do header como um flexbox */
+    justify-content: center;
+    /* Centraliza os itens dentro do header horizontalmente */
+    padding: 16px 0;
+    /* Adiciona padding vertical ao header */
+    background: black;
+    /* Define a cor de fundo do header como preto */
+    color: #ecf0f1;
+    /* Define a cor do texto dentro do header */
+    width: 100%;
+    /* Garante que o header ocupe toda a largura da tela */
+}
+
+header ul {
+    list-style-type: none;
+    /* Remove os marcadores da lista do ul */
+    display: flex;
+    /* Define o container ul como flexbox para exibir os itens li em linha */
+    padding: 0;
+    /* Remove o padding padrão do ul */
+}
+
+header li {
+    display: inline;
+    /* Define os itens li como elementos inline */
+    margin-left: 1px;
+    /* Adiciona uma pequena margem à esquerda de cada li */
+    font-size: 24px;
+    /* Define o tamanho da fonte dos itens li */
+    padding: 10px 20px;
+    /* Adiciona padding ao redor do texto dentro dos itens li */
+    font-family: "VT323";
+    /* Define a família de fontes dos itens li */
+}
+
+header li:hover {
+    color: #E67E22;
+    /* Muda a cor do texto dos itens li ao passar o mouse */
+}
+
+header li a {
+    color: #ecf0f1;
+    /* Define a cor do texto dos links dentro dos itens li */
+    text-decoration: none;
+    /* Remove a decoração (sublinhado) dos links */
+}
+
+p {
+    font-family: Tahoma, Geneva, Verdana;
+    /* Define a família de fontes para os parágrafos */
+}
+
+
+header li {
+    font-family: "VT323";
+}
+
+p {
+    font-family: Tahoma, Geneva, Verdana;
+    padding: 0%;
+    margin: 0px;
+    text-align: justify;
+    font-size: 22px;
+    display: flex;
+    margin-left: 1px;
+    padding: 10px 40px;
+}
+
+header {
+    padding: 16px 0;
+    background: black;
+    color: #ecf0f1;
+}
+
+
+header li :hover {
+    color: #E67E22;
+}
+
+header li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: black;
+    color: #ecf0f1;
+    display: flex;
+    padding: 12px 0;
+    justify-content: center;
+}
+
+footer li,
+a {
+    display: inline;
+    text-decoration: none;
+    color: #ecf0f1;
+
+}
+
+
+
+/* fim do sobre */
+
+.interfaces{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+/* inico do kubernetes */
+
+.kub {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: #326DE6;
+    color: #ecf0f1;
+    font-family: Tahoma, Geneva, Verdana;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+
+}
+
+.kub img {
+    width: 1000px;
+    height: 600px;
+}
+
+.kub a:hover{
+    padding: 0;
+    margin-top: 0;
+    text-decoration:underline;
+
+}
+/* Fim do kubernetes */
+
+
+/*Inicio Django*/
+.Django {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: #0C4B33;
+    color: #ecf0f1;
+    font-family: Tahoma, Geneva, Verdana;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    white-space: pre-wrap;
+}
+
+.Django img {
+    display: flexbox;
+    width: 1000px;
+    height: 400px;
+
+
+}
+.Django a:hover{
+    padding: 0;
+    margin-top: 0;
+    text-decoration:underline;
+
+}
+
+/*Fim Django*/
+
+/*Inicio Docker*/
+.Docker {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: #1D63ED;
+    color: #ecf0f1;
+    font-family: Tahoma, Geneva, Verdana;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    white-space: pre-wrap;
+}
+
+.Docker img {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 400px;
+    float: left;
+}
+
+.Docker a:hover{
+    padding: 0;
+    margin-top: 0;
+    text-decoration:underline;
+}
+/*Fim Docker*/
+
+
+
+/*Inicio Gitlab*/
+.Gitlab {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: #FC6D26;
+    color: #ecf0f1;
+    font-family: Tahoma, Geneva, Verdana;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    white-space: pre-wrap;
+}
+
+.Gitlab img {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 400px;
+    float: left;
+}
+
+.Gitlab a:hover{
+    padding: 0;
+    margin-top: 0;
+    text-decoration:underline;
+}
+/*Fim Gitlab*/
+
+
+/*Inicio Sentry*/
+.sentry {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    background-color: #764587;
+    color: #ecf0f1;
+    font-family: Tahoma, Geneva, Verdana;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+    white-space: pre-wrap;
+
+}
+
+.sentry img {
+    box-sizing: border-box;
+    width: 1000px;
+    height: 400px;
+    float: left;
+}
+
+.sentry a:hover{
+    padding: 0;
+    margin-top: 0;
+    text-decoration:underline;
+
+}
+
+/*Fim Sentry*/
+
+/*inicio newsletter*/
+
+.Newsletter {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.newsletter-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.newsletter-form h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.newsletter-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.newsletter-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.newsletter-form input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.newsletter-form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/*fim newsletter*/
+
+.seta a{
+    display: flex;
+    height: 50px;
+    padding-left: 100%;
+    justify-content:end;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
