@@ -5,8 +5,31 @@
 
 body{
     background-image: linear-gradient(to bottom right, rgb(98, 0, 255), rgb(255, 94, 0));
-    padding: 327px;
+    padding: 359px;
     color: white;
     
 }
 
+.msg {
+    padding: 10px;
+    border-radius: 3px;
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.msg.true {
+    background-color: #1ca817;
+    color: white;
+}
+
+.msg.false {
+    background-color: #961f1f;
+    color: white;
+}
+
+.msg.vazio {
+    background-color: #ff6600;
+    color: white;
+}
