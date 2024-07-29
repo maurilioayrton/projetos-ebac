@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #5f27cd;
+    color: #fff;
+    padding: 16px 0;
+    display: flex;
+    border-bottom: 16px solid #341f97;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+header button{
+    margin-left: 16px;
+}
+form{
+    background-color: #c8d6e5;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+
+}
+button{
+    text-transform: uppercase;
+}
+/**/
+ul{
+    display: flex; /*coloca o LI um do lado do outro*/
+    flex-wrap: wrap;/*quando execeder o limite da tela criar uma nova linha */
+}
+ul li{
+    max-width: 25%;/*determina a quantidade dimagem por linha*/
+    list-style: none;/*remove a bolinha da lista*/
+    position: relative;
+    max-height: 280px; /*delimita o tamanho do LI*/
+    overflow-y: hidden;/*oculta o valor que execer o max-height*/
+}
+ul li img{
+    width: 100%; /*esse valor de 100% equivale ao consumo do box determinado no max-width*/
+}
+.overlay-imagem-link{
+    padding: 16px; /*o primeiro valor equivale a em cima e em baixo e segundo valor equivale as laterais */
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;/* vamos posicionar no canto esquerdo o elemento "overlay-imagem-link" no canto esquerdo do LI */
+    bottom: 0; /*que o elemento vai estar na extremidade*/
+    left: 0;
+    width: 100%;
+    opacity: 0; /*para remover o texto*/
+    transition: all ease .5s; /*quando passa o mouse em cima do link ele vai demora meio segunddo para exibir e sair quando tirar o mouse*/
+
+}
+.overlay-imagem-link a{
+    color: #fff;
+    text-decoration: none; /*remove o underline do link*/
+}
+ul li:hover .overlay-imagem-link{
+    opacity: 1; /*Ele exibe o lin quando passarmos o mouse no seletor .overlay-imagem-link */
+}
